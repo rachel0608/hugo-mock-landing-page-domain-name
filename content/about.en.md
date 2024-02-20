@@ -5,4 +5,4 @@ draft: false
 
 # About Us
 
-Made with ❤️ by the *Hugo Bootstrap Theme* [team](https://github.com/filipecarneiro/hugo-bootstrap-theme/graphs/contributors).
+Made with ❤️ by the *Nutrition Snap* [team](https://github.com/filipecarneiro/hugo-bootstrap-theme/graphs/contributors).
