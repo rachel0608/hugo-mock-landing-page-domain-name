@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Featured on Nutrition Snap</title>
-    <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/featured/</link>
+    <link>https://github.com/rachel0608/hugo-mock-landing-page/tags/featured/</link>
     <description>Recent content in Featured on Nutrition Snap</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Open-source &lt;a class=&#34;text-muted text-decoration-none&#34; href=&#34;https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE&#34;&gt;MIT&lt;/a&gt; Licensed.</copyright>
-    <atom:link href="https://filipecarneiro.github.io/hugo-bootstrap-theme/tags/featured/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Rachel Nguyen</copyright>
+    <atom:link href="https://github.com/rachel0608/hugo-mock-landing-page/tags/featured/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Power of Protein: How to Optimize Your Protein Intake</title>
-      <link>https://filipecarneiro.github.io/hugo-bootstrap-theme/page/markdown-cheat-sheet/</link>
+      <link>https://github.com/rachel0608/hugo-mock-landing-page/page/markdown-cheat-sheet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://filipecarneiro.github.io/hugo-bootstrap-theme/page/markdown-cheat-sheet/</guid>
+      <guid>https://github.com/rachel0608/hugo-mock-landing-page/page/markdown-cheat-sheet/</guid>
       <description>Markdown Cheat Sheet Hugo has excellent Markdown support out of the box. By default, Hugo uses the Goldmark Markdown processor which is fully CommonMark-compliant. See the configuration instructions to learn more about the extensions you can configure.&#xA;Overview You can refer to the table below for an overview of basic markdown syntax:&#xA;TASK MARKDOWN SYNTAX Heading 1 # Heading 2 ## Heading 3 ### Italics *italics* Bold **Bold** Strike ~~strike~~ Blockquote &amp;gt; Links [link name](https://link.</description>
     </item>
   </channel>
