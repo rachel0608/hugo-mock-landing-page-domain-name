@@ -13,11 +13,15 @@ NutritionSnap is an innovative app designed to simplify the process of tracking 
 - **Multi-Device Sync**: Seamlessly sync data across multiple devices for easy access anywhere.
 - **Personalized Recommendations**: Receive tailored recommendations based on dietary goals and restrictions.
 
-## Getting Started
+## GitHub Actions Workflow
 
-To get started with NutritionSnap, follow these steps:
+A GitHub Actions workflow is designed to automate the process of building and deploying a Hugo-based static website to GitHub Pages. It is triggered by pushes to the main branch of the repository.
 
-1. Clone this repository to your local machine.
-2. Open the project in your preferred code editor.
-3. Follow the installation instructions in the `INSTALL.md` file to set up the app.
-4. Start the development server and begin exploring the app's features.
+The workflow consists of a single job named deploy, which runs on an Ubuntu 22.04 runner provided by GitHub Actions.
+
+The job includes the following steps:
+
+- Check Out Source Repository: This step checks out the repository's source code, including any submodules (such as Hugo themes) and fetches the entire commit history.
+- Initialize Hugo Environment: This step sets up the Hugo environment by installing the specified version of Hugo (0.123.4) with the extended mode enabled.
+- Compile Hugo Static Files: In this step, the hugo command is executed to compile the static website files from the source code. The compiled files include draft content, and the output is minified for better performance.
+- Publish to GitHub Pages: This final step publishes the compiled website files to the gh-pages branch, which is used by GitHub Pages to host the website. The commit author information is set, and the deployment is authenticated using the GitHub token provided by GitHub Actions. There's also an option to specify a custom domain for the GitHub Pages site, which is currently commented out.
